@@ -16,4 +16,4 @@
 * Скопировать репозиторий: git clone https://github.com/Sandhani1704/test-qsoft.git;
 * Открыть файл index.html во вкладке браузера.
 
-[Ссылка на проект](https://sandhani1704.github.io/test-qsoft/)
+[Ссылка на проект](https://sandhani1704.github.io/test-qsoft/index.html)
