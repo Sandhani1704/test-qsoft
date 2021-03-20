@@ -177,6 +177,7 @@
   .header__container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
   }
 }
 
@@ -185,9 +186,12 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
-    max-width: 576px;
+    max-width: 600px;
     width: 100%;
     margin-right: 0;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -217,12 +221,24 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
+    border: none;
+    border-top: 1px solid #bbc4d6;
+    border-radius: 0;
+    background: url("../images/loop.svg") no-repeat 24px;
+    padding-left: 49px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .partners__logo-item {
     width: 48.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__container {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
